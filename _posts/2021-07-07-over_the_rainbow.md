@@ -20,7 +20,7 @@ C     Em    F     C
 Oooo, oooo, oooo, oooo...
 F     E7    Am    F/A
 Oooo, oooo, oooo, oooo...
- 
+
 
 [Verse 1]
 C         Em               F        C

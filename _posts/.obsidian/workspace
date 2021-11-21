@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "8140488e6bceccd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5c8b2520c1f276e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-07-07-el_marido_de_la_peluquera.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88a3d8a4c369529d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ab35a2a1c310655",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "209e233f59169922",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0cab4d1685acc11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "54cab214b1909c4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "43dce72a5ba386cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e80e2dae4e3a05f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2021-07-07-el_marido_de_la_peluquera.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f5c8b2520c1f276e",
+  "lastOpenFiles": [
+    "2021-07-07-el_marido_de_la_peluquera.md"
+  ]
+}

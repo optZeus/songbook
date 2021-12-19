@@ -35,7 +35,7 @@ Spanish villas on the Boulevards of Mexico
                            G7           C
 And I’ll learn to tell the ash from the oak
                          F             G7
-And if you don’t know, I won’t make no joke
+And if you don’t know how, I won’t make no joke
       C                            F           C
 We’ll climb to the top to view the world from above
    F                  C                  G7           C

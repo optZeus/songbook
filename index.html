@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<!--
+    <link rel="stylesheet" href="/css/site.css" />
+--> 
+</style>
+
+<head>
+    <title>Songbook</title>
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px">
+        <h5 class="w3-bar-item">Menu</h5>
+        <button class="w3-bar-item w3-button tablink w3-red" onclick="openSongList(event, 'English')">English</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openSongList(event, 'Spanish')">Spanish</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openSongList(event, 'All')">All</button>
+    </div>
+
+    <div style="margin-left:130px">
+        
+
+        <div id="English" class="w3-container song-list">
+            <ul><li><a href="/songs/english/blackbird/">Blackbird</a></li><li><a href="/songs/english/hallelujah/">Hallelujah</a></li><li><a href="/songs/english/have_i_told_you_lately/">Have I Told You Lately</a></li><li><a href="/songs/english/hey_there_delilah/">Hey There Delilah</a></li><li><a href="/songs/english/how_deep_is_your_love/">How Deep Is Your Love</a></li><li><a href="/songs/english/if_i_aint_got_you/">If I Ain't Got You</a></li><li><a href="/songs/english/make_you_feel_my_love/">Make You Feel My Love</a></li><li><a href="/songs/english/over_the_rainbow/">Over The Rainbow</a></li><li><a href="/songs/english/setting_sail/">Setting Sail</a></li><li><a href="/songs/english/walking_song/">Walking Song</a></li></ul>
+        </div>
+
+        <div id="Spanish" class="w3-container song-list" style="display:none">
+            <ul><li><a href="/songs/spanish/confesiones_de_invierno/">Confesiones de Invierno</a></li><li><a href="/songs/spanish/el_marido_de_la_peluquera/">El Marido de la Peluquera</a></li><li><a href="/songs/spanish/la_pomena/">La Pomeña</a></li><li><a href="/songs/spanish/los_aretes_de_la_luna/">Los Aretes de la Luna</a></li><li><a href="/songs/spanish/mas_guapa_que_cualquiera/">Mas Guapa Que Cualquiera</a></li><li><a href="/songs/spanish/te_recuerdo_amanda/">Te Recuerdo Amanda</a></li><li><a href="/songs/spanish/te_vi/">Un Vestido y Un Amor</a></li><li><a href="/songs/spanish/vete_de_mi/">Vete de Mi</a></li></ul>
+        </div>
+
+        <div id="All" class="w3-container song-list" style="display:none">
+            <ul><li><a href="/songs/english/blackbird/">Blackbird</a></li><li><a href="/songs/english/hallelujah/">Hallelujah</a></li><li><a href="/songs/english/have_i_told_you_lately/">Have I Told You Lately</a></li><li><a href="/songs/english/hey_there_delilah/">Hey There Delilah</a></li><li><a href="/songs/english/how_deep_is_your_love/">How Deep Is Your Love</a></li><li><a href="/songs/english/if_i_aint_got_you/">If I Ain't Got You</a></li><li><a href="/songs/english/make_you_feel_my_love/">Make You Feel My Love</a></li><li><a href="/songs/english/over_the_rainbow/">Over The Rainbow</a></li><li><a href="/songs/english/setting_sail/">Setting Sail</a></li><li><a href="/songs/english/walking_song/">Walking Song</a></li><li><a href="/songs/spanish/confesiones_de_invierno/">Confesiones de Invierno</a></li><li><a href="/songs/spanish/el_marido_de_la_peluquera/">El Marido de la Peluquera</a></li><li><a href="/songs/spanish/la_pomena/">La Pomeña</a></li><li><a href="/songs/spanish/los_aretes_de_la_luna/">Los Aretes de la Luna</a></li><li><a href="/songs/spanish/mas_guapa_que_cualquiera/">Mas Guapa Que Cualquiera</a></li><li><a href="/songs/spanish/te_recuerdo_amanda/">Te Recuerdo Amanda</a></li><li><a href="/songs/spanish/te_vi/">Un Vestido y Un Amor</a></li><li><a href="/songs/spanish/vete_de_mi/">Vete de Mi</a></li></ul>
+        </div>
+
+    </div>
+
+    <script>
+        function openSongList(evt, songListName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("song-list");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+            }
+            document.getElementById(songListName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+        }
+    </script>
+</body>
+
+</html>
